@@ -147,7 +147,7 @@ kube_log_level: 2
 
 # Choose network plugin (cilium, calico, weave or flannel)
 # Can also be set to 'cloud', which lets the cloud provider setup appropriate routing
-kube_network_plugin: calico
+kube_network_plugin: flannel
 kube_network_plugin_multus: false
 
 # Determines if calico-rr group exists
